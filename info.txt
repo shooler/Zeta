@@ -1,0 +1,68 @@
+//list
+//	_Name
+//	Description in one line
+//	*
+//	direction : location
+//	*
+//	#
+//	item list
+//	#
+
+_Clearing
+A cave lies in front of you, woods to the left, a lake to the right, and a tattered house behind you.
+*
+forward : Cave
+right : Woods
+left : Lake
+behind : House
+*
+#
+bones
+stiff
+bunny
+funny
+asymptote
+stuff
+#
+_Cave
+You arrive at the cave, the woods lie to your left, the clearing behind you. Bones litter the ground.
+*
+left : Woods
+behind : Clearing
+*
+#
+
+#
+_Woods
+You hear a hoot from above, the cave lies to your right, the clearing is behind you.
+*
+right : Cave
+behind : Clearing
+up : Tree
+*
+#
+#
+_Tree
+An owl flies off as you climb the tree, eggs lay in a nest
+*
+down : Woods
+*
+#
+eggs
+#
+_Lake
+You arrive at a large lake, the only path out lies behind you, an axe lays on the ground.
+*
+behind : Clearing
+*
+#
+axe
+#
+_House
+Inside the dimly lit house lies a candle on the table, behind you is the clearing
+*
+behind : Clearing
+*
+#
+candle
+#
